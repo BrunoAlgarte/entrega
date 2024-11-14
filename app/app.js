@@ -4,7 +4,7 @@ const app = express();
 
 // Define uma rota GET para o endpoint "/"
 app.get('/', (req, res) => {
-  res.send('Hello World');
+  res.send('Ahoj svet');
 });
 
 // Define a porta do servidor
