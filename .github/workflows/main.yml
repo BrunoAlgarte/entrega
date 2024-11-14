@@ -34,7 +34,7 @@ jobs:
           host: 201.23.3.86
           port: 22
           username: aluno
-          key: ${{ secrets.SERVER_KEY }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
           debug: true
           script: |
             docker login -u ${{ secrets.DOCKER_USERNAME }} -p ${{ secrets.DOCKER_PASSWORD }}
